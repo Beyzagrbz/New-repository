@@ -1,4 +1,15 @@
 # New-repository
+
+
+
+
+
+
+
+
+
+
+
 // DENEYİN YAPILIŞI KODUNU BURADAN İTİBAREN YAZABİLİRSİNİZ
 
 if (FireEnemyMissile) {
