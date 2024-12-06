@@ -20,7 +20,7 @@ void display(void)
     glColor3f(1.0, 0.0, 0.0);
     glBegin(GL_POLYGON);
     glVertex2f(0, 0);
-    glVertex2f(0, -80);
+    glVertex2f(-80, 0);
     glVertex2f(0, -40);
     glEnd();
     
@@ -39,15 +39,15 @@ void display(void)
     glVertex2f(-70, -10);
     glVertex2f(-70, -30);
     glEnd();
-    /*
+    
     glColor3f(1.0, 0.0, 0.0);
     glBegin(GL_POLYGON);
-    glVertex2f(-80, -80);
-    glVertex2f(-80, 0);
-    glVertex2f(0, 0);
-    glVertex2f(0, -80);
+    glVertex2f(-40, -50);
+    glVertex2f(-40, -80);
+    glVertex2f(-60, -80);
+    glVertex2f(-60, -50);
     glEnd();
-    */
+    
 	glFlush();
 }
 
@@ -62,14 +62,3 @@ int main(int argc, char **argv){
 	glutMainLoop();
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
